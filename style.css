@@ -152,8 +152,67 @@
     text-decoration: none;
     font-weight: 800;
 }
+
+
+
+/*   SPONSORS  */
+
+.sponsors-container{
+    display: flex;
+    padding: 0px 30px;
+    margin-bottom: 150px;
+}
+.sponsors-div-container {
+    margin-top: 130px;
+    
+}
 .sponsors{
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.sponsors img{
+    margin-right: 100px;
+}
+#airB{
+    display: flex;
+    width: 150px;
+    height: 96px;
+    max-height: 96px;
+    max-width: 150px;
+    -webkit-box-pack: center;
+}
+#goog{
+    display: flex;
+    width: 150px;
+    height: 96px;
+    max-height: 96px;
+    max-width: 150px;
+    -webkit-box-pack: center;
+}
+#micro{
+    display: flex;
+    width: 150px;
+    height: 96px;
+    max-height: 96px;
+    max-width: 150px;
+    -webkit-box-pack: center;
+}
+#fedex{
+    display: flex;
+    width: 150px;
+    height: 96px;
+    max-height: 96px;
+    max-width: 150px;
+    -webkit-box-pack: center;
+}
+#amazon{
+    display: flex;
+    width: 150px;
+    height: 96px;
+    max-height: 96px;
+    max-width: 150px;
+    -webkit-box-pack: center;
 }
 /* .sect4{
     margin-top: 40px;
