@@ -1,0 +1,173 @@
+/* //importar google fonts mediante cssS// */
+@import url(“https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap”);
+/* General styling */
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #f2f4fc;
+
+}
+.container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-heading-h2 {
+    color: #292e47;
+    font-size: 40px;
+}
+
+
+/*  Projects CSS*/
+.section {
+    padding: 0px 30px,
+}
+.dad-card-container{
+    margin-top: 70px;
+}
+.dad-card-subcontainer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.card{
+    width: 340px;
+    max-height: 444px;
+    display: flex;
+    flex-direction: column;
+}
+.card-img-general{
+    object-fit: cover;
+    height: 240px;
+    width: 100%;
+}
+.card-content{
+    background-color: white;
+    display: flex;
+    flex-direction:  column;
+    height: 100%;
+    width: 100%;
+}
+.card-img-container{
+    margin: 0;
+}
+.card-project-title{
+    color: #292e47;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 30px 20px 20px 20px;
+    background-color: white;
+}
+.card-project-subtitle{
+    color: #292e47;
+    font-size: 16px;
+    margin: 0px 20px;
+    background-color: white;
+}
+.card-project-botton{
+    color: #292e47;
+    font-size: 16px;
+    margin: 40px 20px;
+    background-color: white;
+    color: #072ac8;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+/*  servicees  CSS*/
+
+.service-container{
+    margin-top: 70px;
+}
+.service-subcontainer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.service{
+    width: 340px;
+    max-height: 444px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.service-img{
+    object-fit: cover;
+    height: 240px;
+    width: 100%;
+    background-color: white;
+}
+.service-content{
+    background-color: white;
+    display: flex;
+    flex-direction:  column;
+    height: 100%;
+    width: 100%;
+}
+.service-icon {
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border-radius: 50%;
+    background-color: #ecf7ff;
+    /* background-image: url(/Img/Icons/1.svg); */
+    background-position: 50% 50%;
+    background-size: auto;
+    background-repeat: no-repeat;    
+}
+
+.service-icon.icon1{
+    background-image: url(/Img/Icons/1.svg);
+}
+.service-icon.icon2{
+    background-image: url(/Img/Icons/2.svg);
+}
+.service-icon.icon3{
+    background-image: url(/Img/Icons/3.svg);
+}
+
+.service-title{
+    color: #292e47;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 30px 20px 20px 20px;
+    background-color: white;
+}
+.service-subtitle{
+    color: #292e47;
+    font-size: 16px;
+    margin: 0px 20px;
+    background-color: white;
+}
+.service-project-botton{
+    color: #292e47;
+    font-size: 16px;
+    margin: 40px 20px;
+    background-color: white;
+    color: #072ac8;
+    text-decoration: none;
+    font-weight: 800;
+}
+.sponsors{
+    justify-content: center;
+}
+/* .sect4{
+    margin-top: 40px;
+    padding: 0px 30px;
+}
+.container-general{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.servicesheading{
+    color: #292e47;
+    font-size: 40px;
+}
+.service-container{
+
+} */
