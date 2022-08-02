@@ -27,17 +27,35 @@ body{
 }
 .nav-container{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+    align-items: center;   
+    height: 20px;
 }
 .nav-container a { 
     margin-right: 10px;
+    text-decoration: none;
+    padding: 30px 30px;
+    color: grey; 
 }
-.link-nav{
+.nav-container a:first-child{
+    color: blue
+}
+.nav-container a:hover{
+    color: blue;
+}
+
+.link-nav {
     display: flex;
-    
+}
+.but-nav {
+    height: 50px;    
+    padding: 10px 30px;
+    background-color: #072ac8;
+    color: #ecf7ff;
+    /* border-radius: 50%; */
     
 }
+
 
 
 
@@ -181,7 +199,7 @@ body{
 
 .sponsors-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 150px;
 }
 .sponsors-div-container {
