@@ -2,11 +2,13 @@
 @import url(“https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap”);
 /* General styling */
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
-    background-color: #f2f4fc;
-
+    /* background-color: #f2f4fc; */
+}
+body{
+    background-color: #f2f4fc; 
 }
 .container {
     max-width: 1100px;
@@ -17,6 +19,26 @@
     color: #292e47;
     font-size: 40px;
 }
+
+
+/*   NAV BAR */
+.sect-nav{
+  margin-top: 70px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-container a { 
+    margin-right: 10px;
+}
+.link-nav{
+    display: flex;
+    
+    
+}
+
 
 
 /*  Projects CSS*/
@@ -159,17 +181,15 @@
 
 .sponsors-container{
     display: flex;
-    padding: 0px 30px;
+    justify-content: center;
     margin-bottom: 150px;
 }
 .sponsors-div-container {
     margin-top: 130px;
-    
 }
 .sponsors{
     display: flex;
     flex-direction: row;
-    
 }
 .sponsors img{
     margin-right: 100px;
@@ -180,7 +200,6 @@
     height: 96px;
     max-height: 96px;
     max-width: 150px;
-    -webkit-box-pack: center;
 }
 #goog{
     display: flex;
@@ -188,7 +207,6 @@
     height: 96px;
     max-height: 96px;
     max-width: 150px;
-    -webkit-box-pack: center;
 }
 #micro{
     display: flex;
@@ -196,7 +214,6 @@
     height: 96px;
     max-height: 96px;
     max-width: 150px;
-    -webkit-box-pack: center;
 }
 #fedex{
     display: flex;
@@ -204,7 +221,6 @@
     height: 96px;
     max-height: 96px;
     max-width: 150px;
-    -webkit-box-pack: center;
 }
 #amazon{
     display: flex;
@@ -212,7 +228,6 @@
     height: 96px;
     max-height: 96px;
     max-width: 150px;
-    -webkit-box-pack: center;
 }
 /* .sect4{
     margin-top: 40px;
@@ -230,3 +245,37 @@
 .service-container{
 
 } */
+
+/* SECTION 5 */
+
+.sect5 {
+    width: 1320px;
+    height: 500px;
+    max-width: 1320px;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffc600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+.imput-container{
+    text-align: center;
+    margin-top: 10px;
+}
+.imput-btn{
+    margin-top: 30px;
+
+}
+.imput-btn button {
+    height: 60px;
+    border: none;
+    padding: 15px 60px;
+}
+.imput-btn input{
+    height: 60px;
+    border: none;
+    padding: 0px 12px 0px  50px;;
+}
