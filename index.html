@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Nav bar -->
@@ -19,8 +22,9 @@
           <a href="#">Services</a>
         </div>
         <div>
-          <!-- <button type="button" style="background-color: blue; color:white" >Contact Us</button> -->
-          <button class="but-nav" type="button" >Contact Us</button>
+          <a href="#">
+          <button class="but-nav" type="button" style="background-color: blue; color:white" >Contact Us</button>
+          </a>
         </div>
       </div>          
     </nav>
@@ -32,16 +36,26 @@
     <!-- Section 1 -->
   
     <section class="sect1">
-      <img id="imgGuy" src="/Img/hero-image.png" />
-      <img id="card1" src="/Img/card-1.png" />
-      <im id="card2" src="/Img/card-2.png" />
-      <h1>Empower Your Buisness With Stunning Design!</h1>
-      <p>
-        Circle is a digital design and development studio. We designd and
-        develop astonishing websites and mobile apps
-      </p>
-      <a href="#">See our work</a>
-      <button type="button">Get in touch</button>
+      <div class="container sect1">
+        <div class="imatges">
+          <img class="img-guy" src="/Img/hero-image.png" />
+          <!-- <img class="card1" src="/Img/card-1.png" />
+          <img class="card2" src="/Img/card-2.png" /> -->
+        </div>
+        <div class="text">
+          <h1>Empower Your Buisness With Stunning Design!</h1>
+          <div>
+            <p>
+          Circle is a digital design and development studio. We designd and
+          develop astonishing websites and mobile apps
+            </p>
+          </div>
+          <div>
+            <a href="#">See our work</a>
+          <button class="but-guy" type="button">Get in touch</button>
+          </div>         
+        </div>      
+      </div>    
     </section> 
 
 
@@ -173,7 +187,7 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section> 
 
 
 
@@ -186,10 +200,10 @@
         <p>Let us help you!</p>
         <div class="imput-btn">
           <form action="">
-            <input type="" placeholder="Enter your email">
-            <button type="button" style="background-color: blue; color: white;">Suscribe</button>
+            <input class= "imp" type="" placeholder="✉ Enter your email">
+            <button type="button" style="background-color:blue; color: white;">Suscribe</button>
           </form>
-         </div>
+        </div>
       </div>
     </section>  
 
@@ -197,8 +211,8 @@
 
 
     <!--  FOOTER !!! -->
-    <section class="Fooder">
-      <div class="food-container ">
+    <section class="Footer">
+      <div class="foot-container ">
         <div class="img-info">
           <div>
             <img src="/Img/logos/circle.svg" alt="">
@@ -208,7 +222,19 @@
             Illinois 85486</p>
           </div>
         </div>
-        <div></div>
+        <div class="foot-place">
+          <div class="about">         
+            <a href="#">Team</a>
+            <a href="#">Services</a>
+             <a href="#">About Us</a>          
+          </div>
+          <div class="about sec">
+            <a href="#">Press</a>
+            <a href="#">Projects</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+      </div>
+        
 
       </div>
     </section>

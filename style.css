@@ -1,5 +1,5 @@
 /* //importar google fonts mediante cssS// */
-@import url(“https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap”);
+/* @import url(“https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap”); */
 /* General styling */
 *{
     margin: 0;
@@ -9,6 +9,8 @@
 }
 body{
     background-color: #f2f4fc; 
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
 }
 .container {
     max-width: 1100px;
@@ -35,7 +37,7 @@ body{
     margin-right: 10px;
     text-decoration: none;
     padding: 30px 30px;
-    color: grey; 
+    color: gray; 
 }
 .nav-container a:first-child{
     color: blue
@@ -52,11 +54,28 @@ body{
     padding: 10px 30px;
     background-color: #072ac8;
     color: #ecf7ff;
-    /* border-radius: 50%; */
-    
 }
 
 
+/*      SECTION 1  */
+
+.container sect1 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.img-guy{
+    position:relative;
+    width: 560px;
+    height: 624px;
+}
+.text{
+
+}
+.but-guy{
+    background-color: #292e47;
+    color: #ecf7ff;
+}
 
 
 /*  Projects CSS*/
@@ -296,4 +315,43 @@ body{
     height: 60px;
     border: none;
     padding: 0px 12px 0px  50px;;
+}
+.imp{
+    background-image: url(/Img/mail.svg);
+    background-repeat: no-repeat;
+}
+
+/* FOOTER !!!!! */
+.foot-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 1320px;
+}
+.foot-place{
+    display: flex;
+    flex-direction: column;
+}
+
+.about{
+    display: flex;
+}
+
+.about a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.about sec{
+    display: flex;
+    flex-direction: row;
+}
+.img-info{
+    margin-left: 50px;
+}
+.info{
+    display: flex;
+    margin-top: 16px;
+    color: gray;
 }
