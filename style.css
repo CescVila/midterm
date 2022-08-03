@@ -154,8 +154,8 @@ h1{
     position: absolute;
     left: auto;
     top: auto;
-    right: 15%;
-    bottom: -3%;
+    right: 8%;
+    bottom: -30%;
     width: 290px;
     vertical-align: middle;
     display: inline-block;
@@ -552,40 +552,47 @@ h1{
 }
 
 /* FOOTER !!!!! */
+
 .foot-container{
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 0px;
     width: 1320px;
-    margin: 200px 0px 0px;
+    margin: 80px 0px 0px;
     padding: 0px 30px 100px;
     margin-left: 12%;
 }
-.foot-place{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.about{
-    display: flex;
-}
-
-.about a{
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-}
-.about sec{
-    display: flex;
-    flex-direction: row;
-}
 .img-info{
-    margin-left: 50px;
+    margin-left: 20px;
+    padding: 30px;
 }
 .info{
     display: flex;
     margin-top: 16px;
     color: gray;
+}
+.foot-place{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 200px;
+}
+.about{
+    display: flex;
+}
+.about a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.about-sec a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.about-sec{
+    display: flex;
 }
