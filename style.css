@@ -47,22 +47,30 @@ h1{
     padding: 30px 30px;
     color: gray; 
 }
-.nav-container a:first-child{
+.nav-container .active-page{
     color: blue
 }
+/* .nav-container a:first-child{
+    color: blue
+} */
 .nav-container a:hover{
     color: blue;
 }
+
+.anchorage a {
+    color: white
+}
+
 /* /////////////PROVAR MODIVICAR NAV-CONTAINER A PER LA CLASSE LINK-NAV, POTSER AL CANVIAR DE DIV EN HI HAURÀ PROU */
 .link-nav {
     display: flex;
 }
-.but-nav {
+#but-nav {
     background-color: #15298c;
     color: #ecf7ff;
     height: 10px;
-    margin: 0px 40px 0px 40px;
-    padding: 15px 30px;
+    /* margin: 0px 40px 0px 40px; */
+    padding: 10px 30px;
     text-decoration: none;
    
     
@@ -77,6 +85,9 @@ h1{
     align-items: center;
     padding: 100px 30px 0px;
     margin: 0px 96px;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .imatges{
     display: flex;
@@ -87,7 +98,7 @@ h1{
 }
 .card-a{
     position: absolute;
-    left: 58%;
+    left: 45%;
     top: 20%;
     right: auto;
     bottom: auto;
@@ -100,8 +111,8 @@ h1{
     position: absolute;
     left: auto;
     top: auto;
-    right: 0%;
-    bottom: -5%;
+    right: 15%;
+    bottom: -3%;
     width: 290px;
     vertical-align: middle;
     display: inline-block;
@@ -341,64 +352,115 @@ h1{
     height: 622px;
     margin: 90px 200px 90px 200px;
     background-color: #292e47;
-    background-image: url(/Img/impossible/orbit.png);
+    background-image: url("./Img/impossible/orbit.png");
     background-position: 0px 0px;
     background-size: contain;
     background-repeat: no-repeat;
+    
+}
+
+    
+.dark-screen h3{
+    color: white;
+    font-size: 40px;
+    margin: 100px 0px 10px;
+    margin-bottom: 10px;
 }
 .dark-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     text-align: center;
+    font-weight: bold;
 }
 .client{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 8% ;
 }
 .client-img{
-    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("./Img/impossible/profile.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 1320px;
 }
 .client-name{
     color: aqua;
     font-size: 17px;
 }
-.dark-screen h3{
-    color: white;
-    font-size: 40px;
-}
+
 .text-dark{
     color:#ffc600;
     font-size: 24px;
+    margin-top: 120px;
+    text-align: center;
+    line-height: 160%;
+    font-weight: 500;
+    max-width: 560px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .client-position{
     color: white;
     font-size: 13px;
 }
-.emoji top-left{
+.emoji {
+    width: 150px;
+    height: 150px;
+
+}
+.emoji.top-left{   
     position: absolute;
-    left: 0%;
-    top: 0%;
+    left: 5%;
+    top: 10%;
     right: auto;
     bottom: auto;
-    margin-top: 5%;
-    margin-left: 10%;
+    background-image: url("./Img/impossible/memoji-1.png");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-.emoji top-right{
+.emoji.top-right{
     position: absolute;
-    left: auto;
-    top: 0%;
-    right: 0%;
+    background-image: url("./Img/impossible/memoji-2.png");
+    top: 10%;
+    right: 5%;
     bottom: auto;
-    margin-top: 5%;
-    margin-right: 10%;
+    left: auto;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-.emoji bottom-left{
 
+.emoji.bottom-left{  
+    position: absolute;
+    background-image: url("./Img/impossible/memoji-3.png");
+    bottom: 10%;
+    left: 5%;
+    top: auto;
+    right: auto;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-.emoji bottom-right{
 
+.emoji.bottom-right{
+    background-image: url("./Img/impossible/memoji-4.png");
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    left: auto;
+    top: auto;
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 
@@ -449,15 +511,17 @@ h1{
 /* FOOTER !!!!! */
 .foot-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 80px;
     width: 1320px;
     margin: 200px 0px 0px;
     padding: 0px 30px 100px;
+    margin-left: 12%;
 }
 .foot-place{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .about{
