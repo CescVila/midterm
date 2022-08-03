@@ -18,6 +18,7 @@ h1{
     color: #292e47;
     margin: 20px 0px 30px;
 }
+
 /* HEADDIIINGSSSS H1 H2 H3 H4 I AFEGIR PROPIETATS */
 .container {
     max-width: 1100px;
@@ -52,14 +53,14 @@ h1{
 .nav-container a:hover{
     color: blue;
 }
-
+/* /////////////PROVAR MODIVICAR NAV-CONTAINER A PER LA CLASSE LINK-NAV, POTSER AL CANVIAR DE DIV EN HI HAURÀ PROU */
 .link-nav {
     display: flex;
 }
 .but-nav {
     background-color: #15298c;
     color: #ecf7ff;
-    height: 50px;
+    height: 10px;
     margin: 0px 40px 0px 40px;
     padding: 15px 30px;
     text-decoration: none;
@@ -78,7 +79,7 @@ h1{
     margin: 0px 96px;
 }
 .imatges{
-
+    display: flex;
 }
 .img-guy{
     position:relative;
@@ -86,11 +87,11 @@ h1{
 }
 .card-a{
     position: absolute;
-    left: -19%;
-    top: 0%;
+    left: 58%;
+    top: 20%;
     right: auto;
     bottom: auto;
-    width: 594px;
+    width: 294px;
     vertical-align: middle;
     display: inline-block ;
     
@@ -99,9 +100,9 @@ h1{
     position: absolute;
     left: auto;
     top: auto;
-    right:-25%;
-    bottom: -22%;
-    width: 590px;
+    right: 0%;
+    bottom: -5%;
+    width: 290px;
     vertical-align: middle;
     display: inline-block;
 }
@@ -334,6 +335,77 @@ h1{
 
 } */
 
+/* ////////////  DARK SCREEN */
+.dark-screen{
+    position: relative;
+    height: 622px;
+    margin: 90px 200px 90px 200px;
+    background-color: #292e47;
+    background-image: url(/Img/impossible/orbit.png);
+    background-position: 0px 0px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.dark-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.client{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.client-img{
+    
+}
+.client-name{
+    color: aqua;
+    font-size: 17px;
+}
+.dark-screen h3{
+    color: white;
+    font-size: 40px;
+}
+.text-dark{
+    color:#ffc600;
+    font-size: 24px;
+}
+.client-position{
+    color: white;
+    font-size: 13px;
+}
+.emoji top-left{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.emoji top-right{
+    position: absolute;
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+.emoji bottom-left{
+
+}
+.emoji bottom-right{
+
+}
+
+
+
+
+
+
 /* SECTION 5 */
 
 .sect5 {
@@ -377,9 +449,11 @@ h1{
 /* FOOTER !!!!! */
 .foot-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 80px;
     width: 1320px;
+    margin: 200px 0px 0px;
+    padding: 0px 30px 100px;
 }
 .foot-place{
     display: flex;
