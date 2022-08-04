@@ -28,6 +28,7 @@ h1{
 .title-heading-h2 {
     color: #292e47;
     font-size: 40px;
+    font-weight: bold;
 }
 
 
@@ -66,7 +67,7 @@ h1{
     display: flex;
 }
 #but-nav {
-    background-color: #15298c;
+    background-color: #292e47;
     color: #ecf7ff;
     height: 10px;
     /* margin: 0px 40px 0px 40px; */
@@ -116,8 +117,71 @@ h1{
 }
 
 
+/* /////////////// FORMULAARI ////////// */
 
 
+.formulari-container h1{
+    color: #292e47;
+    font-size: px;
+    line-height: 20px;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    margin-left: 350px;
+    font-weight: bold;
+}
+.imp-container{
+    margin-left: 350px;
+    width: 100%;
+    padding-left: 20px;  
+    color: #8c92ae; 
+    font-size: 20px; 
+    display: flex;
+    flex-direction: row;
+    
+}
+.imp-name{
+    width:1100px; 
+}
+.together{
+    display: flex;
+    padding: 20px 0px;
+    
+}
+.imp-email{
+    width:500px; 
+}
+.imp-phone{
+    width:500px; 
+    padding: 0px 100px;
+}
+.imp-message{
+    width:1100px; 
+}
+.imp-message input{
+    height: 100px;
+   
+}
+.sumbit{
+    background-color: #292e47;
+    color: white;
+    width: 1140px;
+    padding: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.imp-holder{
+    height: 10px;
+    width: 100% ;
+    padding: 20px;
+    line-height: 20px;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+   
+    background-color: rgba(107, 112, 141, 0.1);
+    border: none;
+}
 
 
 /*      SECTION 1  */
@@ -154,8 +218,8 @@ h1{
     position: absolute;
     left: auto;
     top: auto;
-    right: 8%;
-    bottom: -30%;
+    right: 15%;
+    bottom: 0%;
     width: 290px;
     vertical-align: middle;
     display: inline-block;
@@ -179,6 +243,7 @@ h1{
     margin: 0px 40px 0px 40px;
     padding: 15px 30px;
     text-decoration: none;
+    font-weight: bold;
    
 }
 
@@ -461,6 +526,7 @@ h1{
 }
 .emoji.top-left{   
     position: absolute;
+
     left: 5%;
     top: 10%;
     right: auto;
@@ -538,8 +604,10 @@ h1{
     height: 60px;
     border: none;
     padding: 15px 60px;
-    background-color: #15298c;
+    background-color: #292e47;
     color: #ecf7ff;
+    font-weight: bold;
+    font-size: 20px;
 }
 .imput-btn input{
     height: 60px;
@@ -563,7 +631,7 @@ h1{
     margin-left: 12%;
 }
 .img-info{
-    margin-left: 20px;
+    margin-left: 150px;
     padding: 30px;
 }
 .info{
