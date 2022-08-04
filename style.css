@@ -623,7 +623,7 @@ h1 {
 .foot-place {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-left: 100px;
   margin-right: 200px;
 }
