@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/109300034/183027197-36d3516b-f7b6-4b69-ab08-3a0436c539ee.png)                    ![image](https://uploads-ssl.webflow.com/61f7ff5634c23c5bef9d2e54/61f800b7cb56a839fd8ed026_Circle.svg) 
+                   ![image](https://uploads-ssl.webflow.com/61f7ff5634c23c5bef9d2e54/61f800b7cb56a839fd8ed026_Circle.svg) 
 
 
 
@@ -9,3 +9,6 @@ The diferent technologies thet I use during the proces are:
 HTML
 CSS
 Javascript
+
+
+![image](https://user-images.githubusercontent.com/109300034/183027197-36d3516b-f7b6-4b69-ab08-3a0436c539ee.png)      
