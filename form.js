@@ -11,7 +11,7 @@ function addPost(preventForm) {
     let message = document.querySelector(".imp-message").value;
   
     // Using fetch to push to API
-    fetch("https://jsonplaceholder.typicode.com/posts", {
+    fetch("https://jsonplaceholder.typicode.com/comments", {
       method: "POST",
       headers: {
         Accept: "text/plain, application/json, */*",

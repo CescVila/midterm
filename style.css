@@ -66,7 +66,7 @@ h1 {
   display: flex;
 }
 #but-nav {
-  background-color: #292e47;
+  background-color: #072ac8;
   font-weight: bold;
   color: #ecf7ff;
   height: 10px;
@@ -157,7 +157,7 @@ h1 {
   height: 100px;
 }
 .sumbit {
-  background-color: #292e47;
+  background-color: #072ac8;;
   color: white;
   width: 1140px;
   padding: 30px;
@@ -211,7 +211,7 @@ h1 {
   left: auto;
   top: auto;
   right: 15%;
-  bottom: 0%;
+  bottom: 12%;
   width: 290px;
   vertical-align: middle;
   display: inline-block;
@@ -228,7 +228,7 @@ h1 {
   font-size: 17px;
 }
 .but-guy {
-  background-color: #292e47;
+  background-color: #072ac8;;
   color: #ecf7ff;
   height: 50px;
   margin: 0px 40px 0px 40px;
@@ -293,7 +293,7 @@ h1 {
   font-size: 16px;
   margin: 40px 20px;
   background-color: white;
-  color: #15298c;
+  color: #072ac8;
   text-decoration: none;
   font-weight: 800;
 }
@@ -585,7 +585,7 @@ h1 {
   height: 60px;
   border: none;
   padding: 15px 60px;
-  background-color: #292e47;
+  background-color: #072ac8;;
   color: #ecf7ff;
   font-weight: bold;
   font-size: 20px;
