@@ -6,9 +6,11 @@ Mid-Term Project has been my first project at IRONHACK frontend bootcamp. In thi
 
 The diferent technologies thet I use during the proces are:
 
-HTML
-CSS
-Javascript
+> HTML
+
+> CSS
+
+> Javascript
 
 
 ![image](https://user-images.githubusercontent.com/109300034/183027197-36d3516b-f7b6-4b69-ab08-3a0436c539ee.png)      
