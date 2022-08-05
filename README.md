@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+README
 =======
 ![image](https://uploads-ssl.webflow.com/61f7ff5634c23c5bef9d2e54/61f800b7cb56a839fd8ed026_Circle.svg) 
 
@@ -18,4 +18,4 @@ IH - FE - CCAT - 18JUl
 
 
 ![image](https://user-images.githubusercontent.com/109300034/183027197-36d3516b-f7b6-4b69-ab08-3a0436c539ee.png)      
->>>>>>> e0e462439ec9ee78a676851c420c496725905c8c
+
